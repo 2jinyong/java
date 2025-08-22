@@ -1,0 +1,18 @@
+package sec05;
+
+public class VendingMachineExam {
+
+	public static void main(String[] args) {
+		//필드 VendingMachine 인스턴스 생성
+		VendingMachine vm = new VendingMachine();
+		
+		//음료 객체 생성해서 자판기에 넣기
+		Coke coke1 = new Coke(1500, "높음");
+		Coke coke2 = new Coke(1800,"무가당");
+		
+		Coffe coffe1 = new Coffe(1200, true);
+		Coffe coffe2 = new Coffe(1200, false);
+
+	}
+
+}

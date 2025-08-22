@@ -1,0 +1,15 @@
+package sec03;
+
+public class ComputerExam {
+
+	public static void main(String[] args) {
+
+		//°´Ã¼ »ý¼º
+		Computer comp = new Computer();
+		
+		int rs1 = comp.sum(1,2,3,4);
+		System.out.println(rs1);
+
+	}
+
+}

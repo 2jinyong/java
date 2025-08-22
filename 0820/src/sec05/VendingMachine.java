@@ -1,0 +1,41 @@
+package sec05;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VendingMachine{
+	//필드
+	private List<Beverage>beverages;
+	
+	public VendingMachine() {
+		this.beverages = new ArrayList<>();
+	}
+	
+	public void addBeverage(Beverage beverage) {
+		this.beverages.add(beverage);
+	}
+	public void displayMenu() {
+		System.out.println("===> 음료 메뉴 <===");
+		for(int i=0; i<beverages.size(); i++) {
+			System.out.print((i+1)+ ". ");
+			beverages.get(i).displayInfo();
+		}
+		System.out.println("--------------------");
+	}
+	public void buyBeverage(int number, int money) {
+		if(number < 1 || number > beverages.size()) {
+			System.out.println("잘못된 음료 번호를 선택하셨습니다.");
+			return;
+		}
+		
+		Beverage selectedBeverage = beverages.get(number-1);
+		
+		if(money >= selectedBeverage.getPrice()) {
+			int change = money - selectedBeverage.getPrice();
+			System.out.print("'" + selectedBeverage.getPrice() + "이(가) 나왔습니다.");
+			System.out.println(" 거스름돈 : " + change + "원");
+		}else {
+			System.out.println("돈이 부족합니다.");
+		}
+	}
+}

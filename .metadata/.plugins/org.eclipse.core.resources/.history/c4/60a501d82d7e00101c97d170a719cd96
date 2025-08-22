@@ -1,0 +1,17 @@
+package sec05;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VendingMachine{
+	//ÇÊµå
+	private List<Beverage>beverages;
+	
+	public VendingMachine() {
+		this.beverages = new ArrayList<>();
+	}
+	
+	public void addBeverage(Beverage beverage) {
+		this.beverages.add(beverage);
+	}
+}

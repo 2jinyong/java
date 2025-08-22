@@ -1,0 +1,57 @@
+package sec05;
+
+import java.util.Scanner;
+
+public class VendingMachineExam {
+
+   public static void main(String[] args) {
+      //필드 - VendingMachine 인스턴스 생성
+      VendingMachine vm = new VendingMachine();
+      
+      //음료 객체 생성해서 자판기에 넣기
+      Coke coke1 = new Coke(1500, "가당");
+      Coke coke2 = new Coke(1800, "무가당");
+      
+      Coffe coffee1 = new Coffe(1200, true);
+      Coffe coffee2 = new Coffe(1500, false);
+      
+      vm.addBeverage(coke1);
+      vm.addBeverage(coke2);
+      vm.addBeverage(coffee1);
+      vm.addBeverage(coffee2);
+      
+      //Scanner를 만들어 사용자 요청 받기
+      Scanner scanner = new Scanner(System.in);
+      int selectedNumber;
+      int insertedMoney;
+
+      
+      while(run) {
+         //메뉴 표시
+         vm.displayMenu();
+         try {
+            System.out.println("음료 번호를 선택하세요. (종료 0)");
+            selectedNumber = scanner.nextInt();
+            
+            if(selectedNumber == 0) {
+               System.out.println("자판기 이용을 종료합니다.");
+               break;
+            }
+            
+            System.out.println("돈을 투입하세요.");
+            insertedMoney = scanner.nextInt();
+            
+            //음료 구매
+            vm.buyBeverage(selectedNumber, insertedMoney);
+            
+         }catch(Exception e) {
+            System.out.println("잘못된 입력입니다. 숫자만 입력해 주세요.");
+            scanner.next(); //잘못된 입력을 버림
+         }
+         System.out.println();  //줄 바꿈
+      }
+      
+      //scanner.close(); 
+   }
+
+}

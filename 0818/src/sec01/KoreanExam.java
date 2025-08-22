@@ -1,0 +1,21 @@
+package sec01;
+
+public class KoreanExam {
+
+	public static void main(String[] args) {
+
+		Korean k1 = new Korean("홍길동",20);
+		Korean k2 = new Korean("김철수",30);
+		
+		System.out.println("국가 : " + k1.nation);
+		System.out.println("이름 : " + k1.name);
+		System.out.println("나이 : " + k1.age);
+		System.out.println("===================");
+		System.out.println("국가 : " + k2.nation);
+		System.out.println("이름 : " + k2.name);
+		System.out.println("나이 : " + k2.age);
+		
+
+	}
+
+}

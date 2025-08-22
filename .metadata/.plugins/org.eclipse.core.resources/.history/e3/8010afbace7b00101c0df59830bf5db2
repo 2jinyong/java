@@ -1,0 +1,16 @@
+package sec01;
+
+public class CarExam {
+
+	public static void main(String[] args) {
+
+		//car °´Ã¼ »ý¼º
+		Car myCar = new Car();
+		
+		System.out.println(myCar.model);
+		System.out.println(myCar.start);
+		System.out.println(myCar.speed);
+		
+	}
+
+}

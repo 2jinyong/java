@@ -1,0 +1,11 @@
+package world;
+
+public class ConnectionExam {
+
+	public static void main(String[] args) {
+		
+		Connection conn = null;
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package sec05;
+
+public class Coke extends Beverage {
+
+	String sugarLevel;
+	
+	
+}

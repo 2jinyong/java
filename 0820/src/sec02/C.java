@@ -1,0 +1,16 @@
+package sec02;
+
+import sec04.A;
+
+public class C extends A {
+	
+	//持失切 識情
+	public C() {
+		super();
+	}
+	public void method1() {
+		this.field = "value";
+		this.method();
+	}
+
+}

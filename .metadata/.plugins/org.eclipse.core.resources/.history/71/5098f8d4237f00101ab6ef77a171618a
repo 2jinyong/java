@@ -1,0 +1,15 @@
+package sec05;
+
+public class ProductExam {
+
+	public static void main(String[] args) {
+		Product<Tv,String> pd1 = new Product<>();
+		
+		pd1.setKind(new Tv());
+		pd1.setModel("½º¸¶Æ®tv");
+		
+		Product<car,String> pd2 = new Product<>();
+
+	}
+
+}

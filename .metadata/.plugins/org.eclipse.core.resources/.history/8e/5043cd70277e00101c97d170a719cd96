@@ -1,0 +1,33 @@
+package sec05;
+
+public class Beverage {
+	private String name;
+	private int price;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+	
+	public void Berverage(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	public void displayInfo() {
+		System.out.println("선택한 음료는 : " + this.name + "입니다.");
+		System.out.println("음료의 가격은 : " + this.price + "입니다.");
+	}
+
+}

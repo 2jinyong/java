@@ -1,0 +1,12 @@
+package sec01;
+
+class StudentExam {
+
+	public static void main(String[] args) {
+		
+		Student st1 = new Student();
+		
+
+	}
+
+}

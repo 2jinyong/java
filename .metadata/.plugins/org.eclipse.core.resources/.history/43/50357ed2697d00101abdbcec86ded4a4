@@ -1,0 +1,10 @@
+package sec02;
+
+import sec04.A;
+
+public class C extends A {
+	public void method() {
+		A a= new A();
+	}
+
+}

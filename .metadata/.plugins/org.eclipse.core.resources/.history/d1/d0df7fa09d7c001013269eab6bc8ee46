@@ -1,0 +1,6 @@
+package sec07;
+
+public class C {
+	A a;
+	B b;
+}

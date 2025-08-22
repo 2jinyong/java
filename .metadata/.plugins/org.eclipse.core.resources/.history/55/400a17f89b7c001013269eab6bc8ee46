@@ -1,0 +1,19 @@
+package sec06;
+
+public class KoreanExam {
+
+	public static void main(String[] args) {
+
+		Korean k1 = new Korean("123456-1234567", "È«±æµ¿");
+		
+		System.out.println(k1.nation);
+		System.out.println(k1.name);
+		System.out.println(k1.ssn);
+		
+		k1.nation = "¹Ì±¹";
+		k1.ssn = "234567-2345678";
+		k1.name = "±è¼øÀÌ";
+
+	}
+
+}

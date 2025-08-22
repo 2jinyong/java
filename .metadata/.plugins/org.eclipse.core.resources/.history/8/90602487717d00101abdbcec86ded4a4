@@ -1,0 +1,22 @@
+package sec05;
+
+public class Beverage {
+	private String name;
+	private int price;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void getPrice() {
+		retrun price;
+	}
+	
+	public void displayInfo() {
+		
+	}
+	public void Berverage(String name, int price) {
+		
+	}
+
+}

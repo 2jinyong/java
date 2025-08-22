@@ -1,0 +1,16 @@
+package sec03;
+
+public class AirPlane {
+	//메소드 선언 
+	public final void land() {
+		System.out.println("착륙합니다.");
+	}
+	
+	public void fly() {
+		System.out.println("일반 비행합니다.");
+	}
+	
+	public final void takeOff() {
+		System.out.println("이륙 합니다.");
+	}
+}

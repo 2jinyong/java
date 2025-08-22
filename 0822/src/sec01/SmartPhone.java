@@ -1,0 +1,12 @@
+package sec01;
+
+public class SmartPhone implements RemoteControl{
+
+	@Override
+	public void turnOn() {
+		System.out.println("스마트폰을 켭니다.");
+		
+	}
+	
+
+}

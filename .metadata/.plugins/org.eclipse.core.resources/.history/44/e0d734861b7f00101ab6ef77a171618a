@@ -1,0 +1,12 @@
+package sec01;
+
+public class RemoteControlExam {
+
+	public static void main(String[] args) {
+		
+		Tv mytv = new Tv();
+		SmartPhone myphone = new SmartPhone();
+
+	}
+
+}

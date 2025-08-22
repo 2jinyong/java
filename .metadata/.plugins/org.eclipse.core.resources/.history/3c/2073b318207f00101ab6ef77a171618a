@@ -1,0 +1,23 @@
+package sec03;
+
+public class RemoteControl {
+//상수 필드
+	int MAX_volume = 10;
+	int MIN_volume = 1;
+	
+	//추상메서드
+	void turnOn();
+	void turnOff();
+	void setVolume(int volume) {
+		default void setMute(boolean mute) {
+			System.out.println("무음 처리합니다.");
+		}else {
+			System.out.println("무음을 해제합니다.");
+		}
+	}
+	
+	//정적메서드
+	static void changeBattery() {
+		System.out.println("리모컨 건전지를 교체 합니다.");
+	}
+}

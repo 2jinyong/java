@@ -1,0 +1,16 @@
+package sec05;
+
+public class CalculatorExam {
+
+	public static void main(String[] args) {
+
+		double rs1 = 10 * 10 * Calculator.pi;
+		int rs2 = Calculator.plus(10, 21);
+		int rs3 = Calculator.minus(10, 20);
+		
+		Calculator myCal = new Calculator(); 
+			myCal.color = "»¡°­";
+
+	}
+
+}

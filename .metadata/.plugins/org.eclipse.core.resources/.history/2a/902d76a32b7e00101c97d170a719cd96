@@ -1,0 +1,6 @@
+package sec05;
+
+public class VendingMachine{
+	//ÇÊµå
+	private List<Beverage>beverages;
+}

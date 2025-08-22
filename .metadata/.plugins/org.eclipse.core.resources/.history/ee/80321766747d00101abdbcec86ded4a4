@@ -1,0 +1,13 @@
+package sec05;
+
+public class CafeExam {
+
+	public static void main(String[] args) {
+
+		Beverage bg = new Beverage();
+		
+		bg.displayInfo();
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package sec05;
+
+public class Coffe extends Beverage{
+	//필드
+	private boolean isHOt;
+	
+	//생성자
+	private Coffe(int price, boolean isHot) {
+		super("커피",price);
+		this.isHOt = isHot;
+	}
+	
+	//override
+}

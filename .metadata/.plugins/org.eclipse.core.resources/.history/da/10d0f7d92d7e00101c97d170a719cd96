@@ -1,0 +1,26 @@
+package sec05;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VendingMachine{
+	//필드
+	private List<Beverage>beverages;
+	
+	public VendingMachine() {
+		this.beverages = new ArrayList<>();
+	}
+	
+	public void addBeverage(Beverage beverage) {
+		this.beverages.add(beverage);
+	}
+	public void displayMenu() {
+		System.out.println("===> 음료 메뉴 <===");
+		for(int i=0; i<beverage.size(); i++) {
+			System.out.print((i+1)+ ". ");
+		}
+	}
+	public void buyBeverage(int number, int money) {
+		
+	}
+}

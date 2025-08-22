@@ -1,0 +1,14 @@
+package ch01;
+
+public class MemberServiceExam {
+
+	public static void main(String[] args) {
+		
+		MemberService ms = new MemberService();
+		
+		
+		
+
+	}
+
+}

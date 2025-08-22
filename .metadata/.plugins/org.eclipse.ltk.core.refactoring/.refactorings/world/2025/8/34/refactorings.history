@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;world.connectionExam&apos; to &apos;ConnectionExam&apos;&#x0D;&#x0A;- Original project: &apos;world&apos;&#x0D;&#x0A;- Original element: &apos;world.connectionExam&apos;&#x0D;&#x0A;- Renamed element: &apos;world.ConnectionExam&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;connectionExam&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;world{connectionExam.java[connectionExam" matchStrategy="1" name="ConnectionExam" qualified="false" references="true" similarDeclarations="false" stamp="1755743544948" textual="false" version="1.0"/>
+</session>

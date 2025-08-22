@@ -1,0 +1,24 @@
+package sec01;
+
+public class ArthmeOperExam {
+	
+	public static void main(String[] args) {
+		
+		byte v1 = 10;
+		byte v2 = 4;
+		int v3 = 5;
+		long v4 = 10L;
+			
+		int rs1 =  v1 + v2;
+		System.out.println(rs1);
+		
+		long rs2 = v1 + v2 - v4;
+		System.out.println(rs2);
+		
+		double rs3 = (double) v1/v2;
+		System.out.println(rs3);
+		
+		int rs4 = v1%v3;
+		System.out.println(rs4);
+	}
+}

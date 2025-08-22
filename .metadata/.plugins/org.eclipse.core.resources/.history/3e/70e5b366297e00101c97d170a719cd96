@@ -1,0 +1,12 @@
+package sec05;
+
+public class Coke extends Beverage {
+	//필드
+	String sugarLevel;
+	
+	//생성자
+	public Coke(int price, String suaarLevel) {
+		super("콜라",price);
+	}
+	
+}

@@ -1,0 +1,13 @@
+package sec03;
+
+public class RemoteControlExam {
+
+	public static void main(String[] args) {
+		Audio ad;
+		ad.turnOn();
+		
+		
+
+	}
+
+}

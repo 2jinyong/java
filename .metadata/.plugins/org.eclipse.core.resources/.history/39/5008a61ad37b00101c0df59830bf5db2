@@ -1,0 +1,15 @@
+package sec02;
+
+public class CarExam {
+
+	public static void main(String[] args) {
+
+		Car myCar1 = new Car();
+		Car myCar2 = new Car("Çö´ë");
+		Car myCar3 = new Car("½ÑÅ¸Æä","Èò»ö");
+		Car myCar4 = new Car("¾Æ¹Ý¶¼","ÆÄ¶õ»ö",100);
+		
+
+	}
+
+}

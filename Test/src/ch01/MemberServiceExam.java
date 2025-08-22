@@ -1,0 +1,16 @@
+package ch01;
+
+public class MemberServiceExam {
+
+	public static void main(String[] args) {
+		
+		MemberService ms = new MemberService("ezen",1234);
+		
+		ms.login("ezen", 1234);
+		ms.login("asdf", 0000);
+		ms.logout();
+		
+
+	}
+
+}

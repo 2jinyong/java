@@ -1,0 +1,23 @@
+package sec01;
+
+public class AnimalExam {
+
+	public static void main(String[] args) {
+		
+		Animal dog = new Dog("¹ÙµÏÀÌ");
+		Dog dog2 = new Dog("ÂÐ");
+		
+		Cat cat = new Cat("³ªºñ");
+		
+		dog.sound();
+		dog.sleep();
+		
+		dog2.sound();
+		dog2.sleep();
+
+	}
+	
+	public static void animalSound(Animal animal) {
+		animal.sound();
+	}
+}

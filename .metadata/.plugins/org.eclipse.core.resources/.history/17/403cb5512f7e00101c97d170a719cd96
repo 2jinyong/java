@@ -1,0 +1,13 @@
+package sec05;
+
+public class VendingMachineExam {
+
+	public static void main(String[] args) {
+		//필드 VendingMachine 인스턴스 생성
+		VendingMachine vm = new VendingMachine();
+		
+
+
+	}
+
+}

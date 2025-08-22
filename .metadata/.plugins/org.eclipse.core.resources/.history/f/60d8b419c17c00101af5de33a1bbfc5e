@@ -1,0 +1,17 @@
+package ch01;
+
+public class MemberService {
+	
+	String id;
+	int password;
+	
+	public void loginok(String id, int password) {
+		if(this.id.equals("ezen") && this.password == 1234) {
+			System.out.println("로그인 되었습니다.");
+		}else {
+			System.out.println("id또는 password가 올바르지않습니다.");
+		}
+		
+	}
+
+}

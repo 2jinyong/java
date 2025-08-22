@@ -1,0 +1,21 @@
+package ch01;
+
+public class MemberService {
+	
+	private String id;
+	private int password;
+	
+	public String getId() {
+		return this.id;
+	}
+	public int getPassword() {
+		return this.password;
+	}
+	
+	public void login(String id, int password) {
+		if(id.equals("ezen") && password == 1234) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package sec05;
+
+public class ProductExam {
+
+	public static void main(String[] args) {
+		Product<Tv,String> product1 = new Product<>();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package sec01;
+
+public class AnimalExam {
+
+	public static void main(String[] args) {
+		
+		Animal dog = new Dog("¹ÙµÏÀÌ");
+		Dog dog2 = new Dog("ÂÐ");
+
+	}
+
+}

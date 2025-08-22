@@ -1,0 +1,23 @@
+package sec05;
+
+public class Beverage {
+	private String name;
+	private int price;
+	
+	public void Berverage(String name, int price) {
+		System.out.println("주문상품: " + name + " 주문가격 : " + price);
+	}
+	
+	public void getName() {
+		
+	}
+	
+	public void getPrice(int price) {
+		
+	}
+	
+	public void displayInfo() {
+		
+	}
+
+}
